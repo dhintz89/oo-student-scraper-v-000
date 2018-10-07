@@ -7,7 +7,7 @@ class Scraper
     site = Nokogiri::HTML(open(index_url))
     students = []
     site.css(".student-card").each do |student|
-      student.css("")
+      student.css(".card-text-container")
     
   end
 
