@@ -9,6 +9,7 @@ class Scraper
     site.css(".student-card").each do |student|
       name = student.css(".card-text-container.student-name").text
       binding.pry
+    end
     
   end
 
