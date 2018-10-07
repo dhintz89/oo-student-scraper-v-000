@@ -19,3 +19,4 @@ class Scraper
 
 end
 
+Scraper.scrape_index_page()
